@@ -147,7 +147,7 @@ def scrape():
 
     #Storing Last Update
     now = datetime.now()
-    scrape_dict['timestamp']=now.strftime("%d/%m/%Y %H:%M:%S")
+    scrape_dict['timestamp']=now.strftime("%m/%d/%Y-%H:%M")
 
     return scrape_dict
 
